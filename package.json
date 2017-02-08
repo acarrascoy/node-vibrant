@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/akfish/node-vibrant.git"
+    "url": "https://github.com/acarrascoy/node-vibrant.git"
   },
   "keywords": [
     "color",
