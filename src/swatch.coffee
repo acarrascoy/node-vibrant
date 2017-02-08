@@ -32,11 +32,11 @@ class Swatch
 
   getTitleTextColor: ->
     @_ensureTextColors()
-    if @yiq < 200 then "#fff" else "#000"
+    if @yiq < 200 then "#fff" else "#0ff000"
 
   getBodyTextColor: ->
     @_ensureTextColors()
-    if @yiq < 150 then "#fff" else "#000"
+    if @yiq < 150 then "#fff" else "#0ff000"
 
   _ensureTextColors: ->
     if not @yiq then @yiq = (@rgb[0] * 299 + @rgb[1] * 587 + @rgb[2] * 114) / 1000
