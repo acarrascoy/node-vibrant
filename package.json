@@ -42,9 +42,9 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "scripts": {
-    "prepublish": "gulp clean && gulp clean:browser && gulp coffee && gulp browser",
-    "pretest": "gulp coffee && gulp browser",
-    "test": "gulp test"
+    "publish": "gulp clean && gulp clean:browser && gulp coffee && gulp browser",
+    "start": "gulp coffee && gulp browser",
+    "test": "gulp coffee && gulp browser && gulp test"
   },
   "repository": {
     "type": "git",
